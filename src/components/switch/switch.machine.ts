@@ -1,5 +1,4 @@
-import { createMachine, MachineSchema } from "@zag-js/core";
-import { Service } from "@zag-js/core";
+import { createMachine, MachineSchema, Service } from "@zag-js/core";
 import { NormalizeProps } from "@zag-js/types";
 
 export const machine: MachineSchema = createMachine({
